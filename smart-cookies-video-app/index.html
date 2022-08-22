@@ -1,0 +1,91 @@
+<html>
+  <!-- External libs -->
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="app.css" />
+
+  <body>
+    <video id="videoTag" controls />
+
+    <!-- Quiz Modal -->
+    <div
+      class="modal fade"
+      id="myModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      data-backdrop="static"
+      data-keyboard="false"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <h2>Question: 3 + 2 = ?</h2>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="option"
+                id="op1"
+                value="5"
+              />
+              <label class="form-check-label" for="op1"> 5 </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="option"
+                id="op2"
+                value="3"
+              />
+              <label class="form-check-label" for="op2"> 3 </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="option"
+                id="op3"
+                value="8"
+              />
+              <label class="form-check-label" for="op3"> 8 </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="option"
+                id="op4"
+                value="4"
+              />
+              <label class="form-check-label" for="op4"> 4 </label>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              onclick="checkAnswer()"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script type="text/javascript" src="app.js"></script>
+</html>
