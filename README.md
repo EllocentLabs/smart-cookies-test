@@ -15,7 +15,8 @@ This file includes the business logic to pause the video at 1:04 seconds, monito
 This file includes custom CSS.
 
 **How to run**
-To run this project, open index.html in the browser
+1. Update your firebase config in this file - https://github.com/EllocentLabs/smart-cookies-test/blob/master/smart-cookies-frontend/index.html#L32
+2. Open index.html in the browser
 
 # smart-cookies-frontend
 
