@@ -16,7 +16,7 @@ This file includes custom CSS.
 
 **How to run**
 1. Open index.html in the browser
-2. You can upadte the video url at here https://github.com/EllocentLabs/smart-cookies-test/blob/master/smart-cookies-video-app/app.js#L4
+2. You can update the video url at here https://github.com/EllocentLabs/smart-cookies-test/blob/master/smart-cookies-video-app/app.js#L4
 3. You can update the Time to pause the video at here https://github.com/EllocentLabs/smart-cookies-test/blob/master/smart-cookies-video-app/app.js#L6
 
 # smart-cookies-frontend
