@@ -21,13 +21,14 @@ This file includes custom CSS.
 
 # smart-cookies-frontend
 
-**Description** - This app provide ui to create account on firebase and add user entry in the database.
+**Description** - This app provides ui to create account on firebase authentication and add user entry in the database.
 <br /><br />
 **index.html-**
 This is the main file to run the project. Open it in the browser to run the project.
 <br /><br />
 **app.js-**
 This file includes the business logic to create account on firebase and add user entry in the database.
+<br /><br />
 **How to run**
 1. Update your firebase config in this file - https://github.com/EllocentLabs/smart-cookies-test/blob/master/smart-cookies-frontend/index.html#L32
 2. Open index.html in the browser
