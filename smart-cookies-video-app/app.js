@@ -1,7 +1,7 @@
 /* variables declarations... */
 
  //set video url here 
-const VIDEO_URL= "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+const VIDEO_URL= "https://drive.google.com/uc?export=download&id=15g6xV_a3CEikLYejznE2iONpFyDb0gQX"
  //set quiz time here in seconds
 const TIME_TO_PAUSE = 64; 
 const EVENTS = {
